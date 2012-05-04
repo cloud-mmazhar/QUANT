@@ -1,0 +1,107 @@
+﻿
+.bodyContent
+{
+	
+}
+
+
+.RowContent1
+{
+	position: relative;
+	width:  1250px;
+	height: 280px;			
+	background-color:#dddddd;
+	 border: solid 1px gray;	
+}
+
+.RowContent2
+{
+	position: relative;
+	width:  1250px;
+	height: 280px;			
+	background-color: #CCDDCC;	
+}
+
+.RowContent3
+{
+	position: relative;
+	width:  1250px;
+	height: 280px;			
+	background-color:#dddddd;
+	border: solid 1px gray;	
+}
+
+
+.InnerContent1
+{
+	position : absolute;
+	left:   6px;
+	top:    6px;
+	width:  1230px;
+	height: 260px;
+    background-color: #CCDDEE;
+	border: solid 1px silver;	
+}
+
+.InnerContent2
+{
+	position: absolute;
+	left: 10px;
+	top:  0px;
+	/*bottom: 10px;
+	  */
+}
+
+
+
+.MAWB
+{
+	position: absolute;
+    top:  20px;
+    left: 0px;
+}
+
+.HAWB
+{
+	position: absolute;
+	top:  20px;
+	left: 302px;
+}
+
+.MOBL
+{
+	position: absolute;
+	top:   20px;
+	left: 604px;
+}
+
+.HOBL
+{
+	position: absolute;
+	top:   20px;
+	left: 906px;
+
+}
+
+.invoiceAR
+{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+
+.invoiceAP
+{
+	position: absolute;
+	top: 5px;
+	left: 603px;	
+}
+
+
+
+
+
+#gap
+{
+	height: 4px;
+}

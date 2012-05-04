@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMaster.master.cs" Inherits="Main_MainMaster" %>
+
+<%@ Register src="../User_Controls/Menu_Main.ascx" tagname="Menu_Main" tagprefix="uc1" %>
+<%@ Register src="../User_Controls/SidePanel_Left.ascx" tagname="SidePanel_Left" tagprefix="uc2" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <link type="text/css" rel="Stylesheet" href="../CSS/Main/MainMaster.css" />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+           <uc2:SidePanel_Left ID="SidePanel_Left1" runat="server" />
+              <div id="content"> 
+                  <div class ="MasterPosition">
+            
+                     <div class="MainMenu">   
+                        <uc1:Menu_Main ID="Menu_Main1" runat="server" />
+                     </div>
+
+                     <div class="Content1">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                     </div> 
+                 </div>
+
+              </div>
+    
+    </form>
+</body>
+</html>
+
+
+
+
+<%--
+ CSS FILE- CONFLICT   BETWEEN SidePanel_LeftStyle.css  AND MenuMatic.css 
+ --%>

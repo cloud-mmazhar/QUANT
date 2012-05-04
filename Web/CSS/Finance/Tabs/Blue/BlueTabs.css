@@ -1,0 +1,77 @@
+.ajax_myTab .ajax__tab_header 
+{
+	color:#fff;
+}
+.ajax_myTab .ajax__tab_outer
+{
+    background:url(img/blue_left.gif) no-repeat 0px 0px;
+}
+.ajax_myTab .ajax__tab_inner
+{
+    background:url(img/blue_right.gif) no-repeat 100% 0px;
+}
+.ajax_myTab .ajax__tab_hover .ajax__tab_outer
+{
+    background:url(img/blue_left.gif) no-repeat 0px -150px;
+}
+ .ajax_myTab .ajax__tab_hover .ajax__tab_inner
+{
+    background:url(img/blue_right.gif) no-repeat 100% -150px;
+}
+ .ajax_myTab .ajax__tab_active .ajax__tab_outer
+{
+    background:url(img/blue_left.gif) no-repeat 0px -300px;
+}
+ .ajax_myTab .ajax__tab_active .ajax__tab_inner
+{
+    background:url(img/blue_right.gif) no-repeat 100% -300px;
+}
+ .ajax_myTab .ajax__tab_body 
+{
+	border:solid 2px #4498c2; 
+	 background-color: White;   	
+}
+
+
+/* ajax__tab_xp-theme theme */
+
+ .ajax_myTab .ajax__tab_header 
+{
+	font-size:11px;
+	font-weight:bold;
+    font-family:arial, sans-serif;
+}
+ .ajax_myTab  .ajax__tab_active .ajax__tab_outer,
+ .ajax_myTab  .ajax__tab_header .ajax__tab_outer,
+ .ajax_myTab  .ajax__tab_hover .ajax__tab_outer
+{
+    margin-right:4px;
+}
+ .ajax_myTab  .ajax__tab_active .ajax__tab_inner,
+ .ajax_myTab  .ajax__tab_header .ajax__tab_inner,
+ .ajax_myTab  .ajax__tab_hover .ajax__tab_inner
+{
+    margin-left:3px; /* offset the width of the left image */
+}
+ .ajax_myTab  .ajax__tab_active .ajax__tab_tab,
+ .ajax_myTab  .ajax__tab_hover .ajax__tab_tab,
+ .ajax_myTab  .ajax__tab_header .ajax__tab_tab
+{
+	margin-right:0px;	
+	padding:8px 23px 8px 20px;
+}
+ .ajax_myTab  .ajax__tab_body 
+{
+    font-family:verdana,tahoma,helvetica;
+    font-size:10pt;
+   
+}
+
+
+
+
+
+
+
+
+
